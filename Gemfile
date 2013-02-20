@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem 'rake'
+
 gemspec
 
 testing = File.expand_path("Gemfile.testing")
