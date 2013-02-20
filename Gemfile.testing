@@ -1,0 +1,9 @@
+group :test do
+  gem 'ci_reporter'
+  gem 'rspec'
+  gem 'fuubar'
+  gem 'simplecov'
+  gem 'simplecov-rcov'
+  gem 'webmock'
+  gem 'guard-rspec'
+end

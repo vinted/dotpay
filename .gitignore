@@ -1,0 +1,7 @@
+.DS_Store
+Gemfile.lock
+Gemfile.personal
+spec/reports/
+coverage/
+**.tmp_*
+doc/
