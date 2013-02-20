@@ -15,6 +15,4 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{lib}/**/*"] + ["Rakefile", "README.rdoc"]
   s.test_files = Dir["spec/**/*"]
-
-  s.add_dependency 'activesupport', '>= 3.0.0'
 end

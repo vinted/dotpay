@@ -3,5 +3,5 @@ rvm:
   - 1.9.2
   - jruby
   - rbx
-script: "bundle exec rake rspec"
+script: "bundle exec rake spec"
 
