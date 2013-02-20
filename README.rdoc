@@ -6,9 +6,9 @@ dotpay.pl gem provides tools for working with http://dotpay.pl online payments s
 
 == How to use
 
-Start by configuring DotpayPl:
+Start by configuring Dotpay:
 
-  DotpayPl.configure do |config|
+  Dotpay.configure do |config|
     config.account_id           = 1234
     config.pin                  = 'your URLC pin here'
   end
@@ -18,7 +18,7 @@ Start by configuring DotpayPl:
 Sample URLC callback handling action.
 
   def callback
-    response = DotpayPl::Response.new(params)
+    response = Dotpay::Response.new(params)
 
     if response.authorized?
       if response.status_done?
@@ -35,8 +35,8 @@ Sample URLC callback handling action.
 
 You can cancel existing transaction:
 
-  DotpayPl.cancel_transaction(t_id, amount, control)
+  Dotpay.cancel_transaction(t_id, amount, control)
 
 Also you can do partial refund:
 
-  DotpayPl.cancel_transaction(t_id, amount, control, type: 2)
+  Dotpay.cancel_transaction(t_id, amount, control, type: 2)
