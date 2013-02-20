@@ -1,5 +1,7 @@
 = dotpay.pl gem
 
+{<img src="https://travis-ci.org/friendlyfashion/dotpay.png" />}[https://travis-ci.org/friendlyfashion/dotpay]
+
 == Description
 
 dotpay.pl gem provides tools for working with http://dotpay.pl online payments system
